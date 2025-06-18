@@ -37,12 +37,11 @@ contract_abi = [
 ]
 
 def load_proxy_list(path=PROXY_FILE_PATH):
-    if not os.path.exists(path):
-        with open(path, 'w') as f:
-            f.write("# Add proxies here, one per line\n")
-        sys.exit("Created proxies.txt. Add proxies and re-run.")
-
     proxies = []
+    if not os.path.exists(path):
+        print(f"{Fore.YELLOW}No proxies.txt found. Running without proxies.{Style.RESET_ALL}")
+        return proxies
+
     with open(path, 'r') as f:
         for line in f:
             proxy = line.strip()
@@ -111,7 +110,7 @@ def print_menu():
 
 def print_header():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(f"{Fore.CYAN}{'═'*60}\n  KASPLEX WRAPPER — BY KAZUHA - EDITED BY NGUYEN\n{'═'*60}{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{'═'*60}\n  KASPLEX WRAPPER — BY KAZUHA\n{'═'*60}{Style.RESET_ALL}")
 
 async def wrap_kas(w3, private_key, amount_wei):
     from_address = Account.from_key(private_key).address
