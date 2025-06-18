@@ -2,3 +2,4 @@ web3
 eth-account
 tqdm
 colorama
+requests
