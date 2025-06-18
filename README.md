@@ -1,9 +1,11 @@
-## Kazuha Helps — KAS/WKAS Bot Setup Guide
+## Kazuha edited by Nguyen -- Bot Setup Guide
 
 This bot lets you:
 - Wrap KAS to WKAS
 - Unwrap WKAS to KAS
 - Wrap & Unwrap KAS/WKAS
+- Run all features every 24hr
+- Support and rotate proxies
 
 ### 1. Clone the Repository
 ```bash
@@ -28,7 +30,13 @@ nano pky.txt
 # Paste your key and save the file
 ```
 
-### 5. Run the Bot
+### 5. Add your proxies
+```bash
+nano proxy.txt
+#input your proxies
+```
+
+### 6. Run the bot
 ```bash
 python3 bot.py
 ```
