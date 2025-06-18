@@ -1,6 +1,6 @@
 ## Kazuha edited by Nguyen -- Bot Setup Guide
 
-This bot lets you:
+## Features:
 - Wrap KAS to WKAS
 - Unwrap WKAS to KAS
 - Wrap & Unwrap KAS/WKAS
