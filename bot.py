@@ -124,7 +124,7 @@ def print_menu():
 
 def print_header():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(f"{Fore.CYAN}{'═'*60}\n  KASPLEX WRAPPER — BY KAZUHA\n{'═'*60}{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{'═'*60}\n  KASPLEX WRAPPER — BY KAZUHA - EDITED BY NGUYEN\n{'═'*60}{Style.RESET_ALL}")
 
 # --- wrap_kas, unwrap_wkas, process_wallet, run_action_cycle ---
 
