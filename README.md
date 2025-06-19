@@ -1,4 +1,4 @@
-## Kazuha edited by Nguyen -- Bot Setup Guide
+## Kazuha787 edited by Nguyen -- Bot Setup Guide
 
 ## Features:
 - Wrap KAS to WKAS
