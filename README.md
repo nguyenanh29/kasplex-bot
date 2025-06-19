@@ -42,4 +42,4 @@ python3 bot.py
 ```
 
 ---
-**Enjoy using the Kazuha KAS/WKAS bot!**
+**Enjoy using the Kazuha787 KAS/WKAS bot!**
