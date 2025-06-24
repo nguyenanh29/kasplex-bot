@@ -35,7 +35,7 @@ nano pky.txt
 nano proxy.txt
 #input your proxies
 ```
-#### Need Proxy? - Buy the cheapest proxy on [Webshare](https://www.webshare.io/?referral_code=ms103aqp1ahx)
+#### Need Proxy? - Buy the cheapest proxy on Webshare [my referral link](https://www.webshare.io/?referral_code=ms103aqp1ahx)
 
 ### 6. Run the bot
 ```bash
